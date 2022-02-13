@@ -1,0 +1,90 @@
+---
+title: "Mapping Species Occurrences"
+output: pdf_document
+---
+
+## Mapping Species Occurrences
+
+Your Name(s) 
+Group Name 
+Mapping Species Occurrences 
+Feburary 15th 
+
+There are two big goals of today's R Notebook:
+
+* Practicing the integration of GitHub into your workflow. 
+* Diving deeper into using R to map species distrubution.  
+
+### GitHub integration
+
+* get token. 
+* setup & run github.R. (I think everyone can do this simultaneously, though maybe they should wait)
+* add github integration to Slack. 
+
+Workflow:
+* write some code
+* commit. 
+* push.
+* pull (if you need to get the latest code)
+* Use Slack to communicate! (e.g. "ok, I just pushed to github, go ahead and pull)
+
+
+Practice:
+
+Group member 1:
+* write code in the code chunk below to query milkweed species from GBIF
+* Commit
+* Push
+* Tell your groupmates to pull in Slack
+
+```{r}
+
+
+
+```
+
+
+Group member 2:
+* write code in the code chunk below to query milkweed species from GBIF
+* Commit
+* Push
+* Tell your groupmates to pull in Slack
+
+```{r}
+
+
+
+```
+
+
+Group member 3:
+* write code in the code chunk below to query milkweed species from GBIF
+* Commit
+* Push
+* Tell your groupmates to pull in Slack
+
+```{r}
+
+
+
+```
+
+Group member 4 (if applicable):
+* write code in the code chunk below to query milkweed species from GBIF
+* Commit
+* Push
+* Tell your groupmates to pull in Slack
+
+```{r}
+
+
+
+```
+
+
+
+### Mapping
+
+
+
+
