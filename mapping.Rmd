@@ -181,7 +181,7 @@ Reduce data columns, and save to a CSV file
 * Commit
 * Push
 * Tell your groupmates to pull in Slack
-
+NOTE: Depending upon the size of your .csv file, you may not want to commit and push it. Your groupmates can always re-run the code to generate their own local copy.
 
 
 ### Mapping
