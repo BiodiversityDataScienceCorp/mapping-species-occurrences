@@ -15,25 +15,10 @@ There are two big goals of today's R Notebook:
 * Practicing the integration of GitHub into your workflow. 
 * Diving deeper into using R to map species distribution.  
 
-
-First, install and load packages:
-
-```{r}
-# install packages
-install.packages("spocc")
-install.packages("tidyverse")
-install.packages("maptools")
+DUE BY NEXT MONDAY: a jpg image of your species distribution map.
 
 
-install.packages("dismo")
-
-install.packages("rgdal")
-install.packages("raster")
-install.packages("sp")
-install.packages("sf")
-
-
-```
+Setup instructions for your reference: https://docs.google.com/document/d/1EO5AH3AczU-ruHLnvZ9Nz7yn8NaSfwgzHYyqKi4ZYXY/edit?usp=sharing
 
 
 ```{r}
@@ -55,16 +40,37 @@ library("sf")
 
 ### GitHub integration
 
-* get token. 
-* setup & run github.R. (I think everyone can do this simultaneously, though maybe they should wait)
-* add github integration to Slack. 
 
 Workflow:
-* write some code
+* write some code (typically some sort of project-oriented goal)
 * commit. 
 * push.
 * pull (if you need to get the latest pushed code from github)
 * Use Slack to communicate! (e.g. "ok, I just pushed to github, go ahead and pull)
+
+Check out commit-push-pull.jpg for a visual representation.
+
+How to Commit (i.e. selecting files to synch to GitHub): 
+* Save any files you've been editing toward your "commit" goal.
+* In the upper-right window, open the Git tab. 
+* Click the checkboxes next to any files to be included in your commit.
+* Click "Commit"
+* A window will open. Write a description of your commit in the "Commit Message" box, and click "Commit".
+* Close the resulting window. 
+
+How to Push (i.e. synch the files to GitHub): 
+* Immediately after you've committed, you'll want to push.  
+* In the window that had opened from your commit, click Push (next to green up arrow)
+* A window will pop up with a message, which you can close.
+* IF you're asked for a password, highlight and run the code in github.R, and try pushing again.
+
+How to Pull (i.e. get the latest changes in GitHub into your rstudio.cloud environment):
+* In the Git tab, click the down-pointing green arrow.
+
+BEWARE: Things can get really messy if you and your groupmates are simultaneously working on the same file(s), and committing-pushing-pulling. For now, it's best to communicate, and take turns. If you run into problems, don't fret...we've all been there. Reach out to us on Slack, and we can help things get squared away.
+
+
+
 
 
 Practice:
@@ -266,4 +272,6 @@ Select a group member to create a map of your milkweed occurrence data. Follow t
 ```
 
 
-Download your map jpg, and submit it to the assignment 5 folder.
+Download your map jpg, and submit it to the assignment 5 folder. Name it in the format of "Assignment5_GroupName.jpg".  
+
+Turn in the image to the Assignment 5 folder here: https://drive.google.com/drive/folders/1pJW4cqtamx_AvldgajF9SkhY9uxz32EW?usp=sharing
